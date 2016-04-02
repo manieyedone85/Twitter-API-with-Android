@@ -1,4 +1,4 @@
-package com.unitedholdingsgroup.instantlike;
+package com.manig.twitterlike;
 
 import android.app.Service;
 import android.content.Intent;
@@ -89,8 +89,7 @@ public class MyService extends Service {
     List<Tweet> tweets = null;
 
 
-    String url = "http://instalike.urbansoft-googleglass.com/webservice.php";
-   // String url = "http://192.168.1.15:81/ManiPs/ADMIN/instalike-admin/webservice.php";
+   // String url = "http://192.168.1.15:81/ManiPs/ADMIN/webservice.php";
 
     String twitaccess;
 
@@ -100,7 +99,7 @@ public class MyService extends Service {
     Boolean twitterflag=false;
 
     HttpClient hc;
-    public static final String SHARED_PREFERENCES = "instantlikepreferences";
+    public static final String SHARED_PREFERENCES = "likepreferences";
     public static final String USER_ID = "user_id";
 
 
@@ -226,7 +225,7 @@ public class MyService extends Service {
 
     }
 
-    public String getTags(String media)
+    public String getTags(String media) // here i get my saved tags from my database
     {
         try {
             //Toast.makeText(getApplicationContext(), "Get TAG fun success from "+media, Toast.LENGTH_LONG).show();
