@@ -16,7 +16,7 @@ twitter api service usind android background service..
   Fabric.with(this, new Twitter(authConfig));
 
 #global variable
-    public static final String SHARED_PREFERENCES = "instantlikepreferences";
+    public static final String SHARED_PREFERENCES = "likepreferences";
     public static final String USER_ID = "user_id";
     public static final Boolean TWITTERFLAG = false;
     public static final String TWITTER_USER_LOGIN = "twitter_user_login";
