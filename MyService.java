@@ -109,8 +109,8 @@ public class MyService extends Service {
     public static final String TWITTER_USER_LOGIN = "twitter_user_login";
     public static final String TWITTER_USER_ACCESS = "twitter_user_access";
 
-    public static final String TWITTER_CONSUMER_KEY ="YB5Jc5ePuWxNSwmEjrjwMUYpf";
-    public static final String TWITTER_CONSUMER_SECRET ="o3TJLASqNt4vnAomzKAnKNlGtmVO81xiS9BlmlrTnuehT00d4N";
+    public static final String TWITTER_CONSUMER_KEY ="twitter key";
+    public static final String TWITTER_CONSUMER_SECRET ="twitter secrete key";
     @Override
     public IBinder onBind(Intent intent) {
         return null;
